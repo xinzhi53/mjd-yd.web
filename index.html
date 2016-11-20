@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<!-- 适配移动端屏幕 -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<title>京东</title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+	<div class="layout">
+	<!-- 头部搜索框 -->
+		<header class="header">
+		<div class="header_box">
+			<div class="icon_logo"></div>
+			<form action="">
+			<!-- search 页面下端弹出键盘、键盘上有一个搜索的按钮 -->
+			<span class="icon_search"></span>
+			<input type="search" name="" id="" placeholder="提示"></form>
+			<a href="" >登录</a>
+		</div>
+		</header>
+		<!-- /header -->
+<!-- banner -->
+
+
+<!-- ul>(li>img[src="./images/l$.jpg"])*8 -->
+
+
+		<div class="banner swipe" id='slider'>
+<!--                ul>(li>img[src="./images/l$.jpg"])*8 -->
+			<ul class='swipe-wrap'>
+				<li><img src="./images/l1.jpg" alt=""></li>
+				<li><img src="./images/l2.jpg" alt=""></li>
+				<li><img src="./images/l3.jpg" alt=""></li>
+				<li><img src="./images/l4.jpg" alt=""></li>
+				<li><img src="./images/l5.jpg" alt=""></li>
+				<li><img src="./images/l6.jpg" alt=""></li>
+				<li><img src="./images/l7.jpg" alt=""></li>
+				<li><img src="./images/l8.jpg" alt=""></li>
+			</ul>
+			<ul>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>			
+		</div>
+
+<!-- 导航部分 -->
+<nav class="nav">
+	<ul class="clearfix">
+		<li><a href="#">
+			<img src="images/nav0.png" alt="">
+			<p>分类查询</p>
+			</a></li>
+		<li><a href="#">
+			<img src="images/nav1.png" alt="">
+			<p>物流查询</p>
+			</a></li>
+		<li><a href="#">
+			<img src="images/nav2.png" alt="">
+			<p>购物车</p>
+			</a></li>
+		<li><a href="#">
+			<img src="images/nav3.png" alt="">
+			<p>我的京东</p>
+			</a></li>
+		<li><a href="#">
+			<img src="images/nav4.png" alt="">
+			<p>充值</p>
+			</a></li>
+		<li><a href="#">
+			<img src="images/nav5.png" alt="">
+			<p>我的关注</p>
+			</a></li>
+		<li><a href="#">
+			<img src="images/nav6.png" alt="">
+			<p>领券中心</p>
+			</a></li>
+		<li><a href="#">
+			<img src="images/nav7.png" alt="">
+			<p>京东超市</p>
+			</a></li>
+	</ul>
+</nav>
+
+<!-- 商品部分 -->
+<main class="product">
+	<!-- 秒杀部分 -->
+	<section class="secondkill">
+		<div class="secondkill_top">
+			<span class="icon_time"></span>
+			<p>掌上秒杀</p>
+			<div class="kill_time">
+				<span class="num">0</span>
+				<span class="num">0</span>
+				<span>:</span>
+				<span class="num">0</span>
+				<span class="num">0</span>
+				<span>:</span>
+				<span class="num">0</span>
+				<span class="num">0</span>
+			</div>
+			<a href="" title="">更多></a>
+		</div>
+		<div class="secondkill_bottom">
+			<ul class="clearfix">
+				<li><a href="">
+					<div class="imgbox">
+						<img src="images/detail01.jpg" alt=""></div>
+						<p class="new_price">$9.9</p>
+						<p class="old_price">$999</p>
+					
+					</a></li>
+				<li><a href="">
+					<div class="imgbox">
+						<img src="images/detail02.jpg" alt=""></div>
+						<p class="new_price">$9.9</p>
+						<p class="old_price">$999</p>
+						
+					</a></li>
+				<li><a href="">
+					<div class="imgbox">
+						<img src="images/detail01.jpg" alt=""></div>
+
+						<p class="new_price">$9.9</p>
+						<p class="old_price">$999</p>
+					</a></li>
+
+
+			</ul>
+		</div>
+	</section>
+	<!-- 超值购 -->
+	<section class="prduct_box">
+		<div class="product_top b_bottom">
+			<!-- <span></span> -->
+			<p>超值购</p>
+		</div>
+		
+		<div class="product_bottom">
+			<ul class="clearfix">
+				<li class="p_left b_right"><a href=""><img src="./images/cp1.jpg" alt=""></a></li>
+				<li class="p_right b_bottom"><a href=""><img src="./images/cp2.jpg" alt=""></a></li>
+				<li class="p_right"><a href=""><img src="./images/cp3.jpg" alt=""></a></li>
+			</ul>
+		</div>
+	</section>
+	<!-- 热门活动 -->
+		<section class="prduct_box b_bottom">
+		<div class="product_top">
+			<!-- <span></span> -->
+			<p>热卖</p>
+		</div>
+		
+		<div class="product_bottom">
+			<ul class="clearfix">
+				<li class="p_right b_left"><a href=""><img src="./images/cp4.jpg" alt=""></a></li>
+				<li class="p_left b_bottom"><a href=""><img src="./images/cp5.jpg" alt=""></a></li>
+				<li class="p_left"><a href=""><img src="./images/cp6.jpg" alt=""></a></li>
+			</ul>
+		</div>
+	</section>
+</main>
+
+
+
+
+
+
+	</div>
+<script src="js/lib/swipe.js"></script>
+<script src="js/index.js"></script>
+
+</body>
+</html>

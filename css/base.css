@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+/*css 初始化 */
+*
+{ 
+    margin:0; padding:0; 
+    box-sizing: border-box;
+
+}
+fieldset, img,input,button 
+{ 
+    border:none; padding:0;margin:0;outline-style:none; 
+}
+ul, ol 
+{ 
+    list-style:none; 
+}
+input 
+{ 
+    padding-top:0; padding-bottom:0; 
+}
+select, input 
+{ 
+    vertical-align:middle;
+}
+select, input, textarea 
+{ 
+    font-size:16px; margin:0; 
+}
+
+textarea 
+{ 
+    resize:none; 
+
+} /*防止文本域拖动*/
+
+img 
+{
+    border:0;	
+    vertical-align:middle; 
+}  /*  去掉图片低部默认的3像素空白缝隙*/
+
+body {
+    font:12px/150% Arial,Verdana,"\5b8b\4f53";
+    color:#666;
+    background:#fff
+}
+
+/*清除浮动*/
+.clearfix:before,.clearfix:after 
+{
+    content:"";
+    display:table;
+}
+.clearfix:after
+{
+    clear:both;
+}
+.clearfix
+{
+    *zoom:1;/*IE/7/6*/
+}
+
+a {color:#666; text-decoration:none; }
+a:hover{color:#C81623;}
+h1,h2,h3,h4,h5,h6 {text-decoration:none;font-weight:normal;font-size:100%;}
+s,i,em{font-style:normal;text-decoration:none;}
+
+/* 找到类名开头为icon的标签 */
+*[class^="icon"]{
+    background: url('../images/sprites.png');
+    background-size: 200px 200px;
+}
+
+/*底部结束*/
+
+
+
+/* 顶部搜索框 */
+.top_bar {
+    position: fixed;
+    height: 44px;
+    background: url('../images/header-bg.png') repeat-x;
+    background-size: 1px 44px;
+    width: 100%;
+    border: 1px solid #e0e0e0;
+}
+
+/* 返回按钮 */
+.top_bar .icon_back{
+    background-position: -20px 0;
+    width: 20px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+}
+
+.top_bar form {
+    width: 100%;
+    height: 44px;
+    padding: 5px 44px;
+}
+
+.top_bar form input {
+    width: 100%;
+    height: 34px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+}
+
+.top_bar .icon_menu {
+    background-position: -60px 0;
+    width: 20px;
+    height: 24px;
+    display: block;
+    position: absolute;
+    right: 12px;
+    top: 10px;
+}
+
+/* 购物车标题信息 */
+.top_bar h3{
+    line-height: 44px;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,288 @@
+
+body{
+	background: #e0e0e0;
+}
+
+.top_bar {
+	position: static;
+}
+
+.safe_tip {
+	width: 100%;
+	background: white;
+	border :  1px solid #e0e0e0;
+	border-top: none;
+}
+.safe_tip .safe_tip_box {
+	width: 240px;
+	height: 34px;
+	line-height: 34px;
+	text-align: center;
+	font-size: 14px;
+	margin: 0 auto;
+	position: relative;
+}
+.icon_safe {
+	background: url('../images/safe_icon.png') no-repeat; 
+	background-size: 18px 18px;
+	display: block;
+	width: 18px;
+	height: 18px;
+	position: absolute;
+	top: 8px;
+	left: 0;
+}
+
+.safe_tip_box p{
+	padding-left: 16px;
+}
+
+
+/* checkbox */
+.checkbox {
+	background: url('../images/shop-icon.png') no-repeat;
+	background-size: 50px 100px;
+	background-position: 0 0;
+	width: 20px;
+	height: 20px;
+	display: block;
+}
+
+.checkbox[checked]{
+	background: url('../images/shop-icon.png') no-repeat;
+	background-size: 50px 100px;
+	background-position: -25px 0;
+	width: 20px;
+	height: 20px;
+	display: block;
+}
+
+.shop {
+	margin-top: 10px;
+	background: white;
+}
+
+.shop .shop_header {
+	width: 100%;
+	height: 36px;
+	border: 1px solid #e0e0e0;
+	position: relative;
+}
+
+.shop_header .check {
+	position: absolute;
+	top: 8px;
+	left: 8px;
+}
+.shop_msg{
+	margin-left: 40px;
+	/* text-align: center; */
+	line-height:36px ;
+}
+.shop_msg img{
+	width: 15px;
+	height: 13px;
+	display: block;
+	float: left;
+	margin-top: 10px;
+}
+
+.shop_msg .shop_name{
+	float: left;
+	margin-left: 5px;
+}
+.shop_tip {
+	float: right;
+	margin-right: 5px; 
+}
+
+
+
+
+
+
+.product {
+	margin-top: 10px;
+	position: relative;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #e0e0e0;
+}
+.product .product_check{
+	position: absolute;
+	top: 30px;
+	left: 10px;
+}
+
+.product a img{
+	width: 80px;
+	height: 80px;
+	float: left;
+	margin-left: 40px;
+}
+
+.product_detail{
+	margin-left: 140px;
+}
+
+.product_name{
+	font-size: 15px;
+}
+
+.option_box {
+	display: block;
+	width: 32px;
+	height: 24px;
+	border: 1px solid #e0e0e0;
+	text-align: center;
+	line-height: 24px;
+	float: left;
+}
+
+.options input {
+	border-left: none;
+	border-right: none;
+}
+
+.delete_box {
+	float:  right;
+}
+
+.delete_top{
+	display: block;
+	background: url('../images/delete_up.png') no-repeat;
+	background-size: 20px 5px;
+	width: 20px;
+	height: 5px;
+	margin-left: -1px;
+}
+.delete_bottom {
+	display: block;
+	background: url('../images/delete_down.png') no-repeat;
+	background-size: 18px 18px;
+	width: 18px;
+	height: 18px;
+	margin-top: -3px;
+}
+
+ 
+/* 弹出框 */
+.alert {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	/* width: 100%;
+	height: 100%; */
+	right: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.alert_box {
+	padding: 0 5%;
+
+	width: 90%;
+	height: 140px;
+	background-color: white;
+	border-radius: 5px;
+	border: 1px solid #e0e0e0;
+	margin: 0 auto;
+}
+
+.alert_box p {
+	line-height: 75px;
+	font-size: 18px;
+	text-align: center;
+	border-bottom: 1px solid #e0e0e0;	
+}
+.btn {
+	margin-top: 10px;
+	display: block;
+	width: 45%;
+	height: 36px;
+	border: 1px solid #e0e0e0;
+	border-radius: 3px;
+	text-align: center;
+	line-height: 36px;
+}
+.btn_box .cancel {
+	float: left;
+
+}
+.btn_box .submit {
+	float: right;
+	background-color: #d8505c;
+	color: white;
+}
+
+
+
+
+/*金额操作*/
+.amount{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height:62px;
+    background: rgba(0,0,0,0.8);
+    width: 100%;
+}
+/*金额操作的盒子*/
+.amount .amount_check{
+    position: absolute;
+    width: 80px;
+    line-height: 62px;
+}
+.amount .amount_check .checkbox{
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+/*全选*/
+.amount .amount_check span{
+    padding-left: 35px;
+    color: #fff;
+}
+/*金额信息*/
+.amount .amount_info{
+    padding-left: 70px;
+    padding-right: 80px;
+    height: 62px;
+    color: #fff;
+}
+/*金额信息*/
+.amount .amount_info .sum{
+    font-size: 16px;
+    margin-top: 15px;
+}
+/*金额信息*/
+.amount .amount_info .other{
+    font-size: 10px;
+    margin-top: 5px;
+}
+/*结算按钮*/
+.amount .amount_submit{
+    height: 62px;
+    width: 120px;
+    padding: 0 2px;
+    text-align: center;
+    line-height: 62px;
+    color: #fff;
+    background: #d8505c;
+    font-size: 18px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+/*结算按钮数量*/
+.amount .amount_submit span{
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+

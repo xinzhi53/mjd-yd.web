@@ -1,0 +1,96 @@
+body{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: blue;
+}
+
+
+.box {
+	width: 100%;
+	height: 100%;
+}
+
+/* 分类 */
+.category {
+	width: 100%;
+	height: 100%;
+	padding-top: 44px;
+	background: white;
+}
+
+
+.category .category_left {
+	height: 100%;
+	width: 90px;
+	background: green;
+	float: left;
+	overflow: hidden;
+}
+
+.category .category_right {
+	height: 100%;
+	width: 100%;
+	padding-left: 90px;
+}
+
+
+.category_left_box li a {
+	display: block;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	border-bottom: 1px solid #e0e0e0;
+	border-right: 1px solid #e0e0e0;
+	background: white;
+	color: black;
+}
+.category_left_box .active a {
+	color: red;
+	border-right: none;
+}
+.category_right_box {
+	width: 100%;
+	height: 100%;
+	/* background: pink; */
+	background: #e0e0e0;
+	overflow: hidden;
+
+}
+
+.category_right_box a img{
+	width: 100%;
+	height: 170px;
+	padding: 10px;
+}
+
+.product {
+	padding: 10px;
+}
+
+.category_right_box  h3 {
+	margin-bottom: 10px;
+	font-size: 15px;
+}
+/* .category_right_box a  {
+	margin-bottom: 10px;
+	font-size: 15px;
+	float:right;
+	display: block;
+}
+ */
+ .product li {
+ 	float: left;
+ 	width: 33.33%;
+ 	text-align: center;
+ 	background: white;
+
+ }
+
+.product img {
+	width: 50px;
+	height: 50px;
+}
+
+
+
